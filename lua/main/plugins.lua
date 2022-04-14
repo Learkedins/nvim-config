@@ -22,7 +22,9 @@ packer.startup(function(use)
   -- Appearances
   use {
     "Shatur/neovim-ayu",
-    "nvim-lualine/lualine.nvim"
+    "nvim-lualine/lualine.nvim",
+    "glepnir/lspsaga.nvim",
+    "lukas-reineke/indent-blankline.nvim"
   }
 
   -- Git
@@ -47,7 +49,8 @@ packer.startup(function(use)
     'hrsh7th/nvim-cmp',
     'L3MON4D3/LuaSnip',
     'saadparwaiz1/cmp_luasnip',
-    'williamboman/nvim-lsp-installer'
+    'williamboman/nvim-lsp-installer',
+    'hrsh7th/cmp-nvim-lsp-signature-help'
   }
 
 
